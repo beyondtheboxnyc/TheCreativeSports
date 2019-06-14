@@ -7,6 +7,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -526,6 +527,19 @@ section.form .container {
 #header1-1 .mbr-section-lead {
   color: #28324e;
   font-size: 36px;
+}
+#msg-box8-29 .mbr-section-title,
+#msg-box8-29 p {
+  color: #fff;
+}
+#msg-box8-29 .mbr-section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+#content5-2a .mbr-section-title,
+#content5-2a p {
+  color: #fff;
 }
 #header3-n .mbr-section-title,
 #header3-n .mbr-section-subtitle {
