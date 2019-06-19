@@ -8,6 +8,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -521,41 +522,49 @@ section.form .container {
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #28324e!important;
 }
-#header1-1 .mbr-section-title {
+#header2-2g .mbr-section-title {
   color: #28324e;
+  text-align: left;
 }
-#header1-1 .mbr-section-lead {
-  color: #28324e;
-  font-size: 36px;
-}
-#msg-box8-29 .mbr-section-title,
-#msg-box8-29 p {
-  color: #fff;
-}
-#msg-box8-29 .mbr-section-title {
+#header2-2g .mbr-section-text {
+  color: #000000;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  color: #ffffff;
+  font-size: 17px;
+}
+#header2-2g .mbr-section-text B {
+  font-size: 20px;
+  color: #28324e;
+}
+#header2-2g .mbr-section-text I {
+  color: #28324e;
 }
 #content5-2a .mbr-section-title,
 #content5-2a p {
+  color: #fff;
+}
+#msg-box4-2j H3 {
+  color: #28324e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+}
+#msg-box8-2k .mbr-section-title,
+#msg-box8-2k p {
+  color: #fff;
+}
+#features3-o H4 {
+  color: #28324e;
+}
+#content5-2i .mbr-section-title,
+#content5-2i p {
   color: #fff;
 }
 #header3-n .mbr-section-title,
 #header3-n .mbr-section-subtitle {
   text-align: center;
 }
-#content5-q .mbr-section-title,
-#content5-q p {
-  color: #fff;
-}
-#header3-r .mbr-section-title,
-#header3-r .mbr-section-subtitle {
-  text-align: center;
-}
-#content5-k .mbr-section-title,
-#content5-k p {
-  color: #fff;
+#header3-n .mbr-section-title {
+  color: #28324e;
 }
 #content5-l .mbr-section-title,
 #content5-l p {
@@ -1014,18 +1023,28 @@ section.form .container {
 #content5-25 p {
   color: #fff;
 }
-#msg-box8-22 .mbr-section-title,
-#msg-box8-22 p {
-  color: #fff;
+#header3-2c .mbr-section-title,
+#header3-2c .mbr-section-subtitle {
+  text-align: center;
 }
-#msg-box8-22 .mbr-section-title {
+#header3-2c .mbr-section-title {
+  color: #28324e;
+}
+#features3-2d H4 {
+  color: #28324e;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  color: #ffffff;
+  font-size: 22px;
 }
 #content5-23 .mbr-section-title,
 #content5-23 p {
   color: #fff;
+}
+#header3-2e .mbr-section-title,
+#header3-2e .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-2e .mbr-section-title {
+  color: #28324e;
 }
 #content5-24 .mbr-section-title,
 #content5-24 p {
