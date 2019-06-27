@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The Creative Sports",
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -35,7 +35,7 @@
     "uniqCompNum": 132,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-icons-lb-128x122.png",
     "noImageResize": "",
     "google-analytics": "",
     "siteUrl": "undefined"
