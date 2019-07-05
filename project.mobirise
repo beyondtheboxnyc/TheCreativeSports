@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 132,
+    "uniqCompNum": 143,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-icons-lb-128x122.png",
@@ -66,7 +66,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -221,7 +221,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -272,40 +272,6 @@
               "font-size": "46px"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButton": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#28324e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "ARTICLE HEADER",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-2k"
         },
         {
           "_params": {
@@ -434,7 +400,7 @@
           "_params": {
             "showTitle": false,
             "showCaption": false,
-            "paddingTop": 3,
+            "paddingTop": "2",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
@@ -455,7 +421,7 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-2i"
+          "_anchor": "content5-3o"
         },
         {
           "_styles": {
@@ -608,7 +574,7 @@
           "_params": {
             "showTitle": false,
             "showCaption": false,
-            "paddingTop": 3,
+            "paddingTop": "2",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
@@ -629,7 +595,101 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-l"
+          "_anchor": "content5-3w"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
+            },
+            "P": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "msg-box4-3x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "BACKGROUND IMAGE",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3y"
         },
         {
           "_styles": {
@@ -686,7 +746,7 @@
             }
           },
           "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
           "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
@@ -732,7 +792,7 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-1w"
+          "_anchor": "content5-l"
         }
       ]
     },
@@ -761,7 +821,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -2496,6 +2556,68 @@
           "_anchor": "content5-1s"
         },
         {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
+            },
+            "P": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "msg-box4-3q"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -2550,7 +2672,7 @@
             }
           },
           "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
           "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
@@ -2622,7 +2744,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3347,6 +3469,68 @@
           "_anchor": "content5-24"
         },
         {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-3p",
+          "_styles": {
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
+            },
+            "P": {
+              "color": "#28324e"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -3407,7 +3591,7 @@
             }
           },
           "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
           "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
@@ -3479,7 +3663,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3852,49 +4036,66 @@
           "_anchor": "content5-24"
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
-          "logo": {
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1btb2020-128x51.png",
-              "width": 128,
-              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
-              "size": 0
+              "size": 250
             }
           },
-          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
-          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
           "_styles": {
-            "P": {
-              "color": "#28324e"
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
             },
-            "STRONG": {
+            "P": {
               "color": "#28324e"
             }
           },
-          "_anchor": "contacts1-1y"
+          "_anchor": "msg-box4-3t"
         },
         {
           "_styles": {
@@ -3926,14 +4127,91 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-26"
+          "_anchor": "content5-3u"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1btb2020-128x51.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#28324e"
+            },
+            "STRONG": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "contacts1-1y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "BACKGROUND IMAGE",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3v"
         }
       ]
     },
     "page5.html": {
       "settings": {
         "meta_descr": "Website Creator Description",
-        "title": "2026 Ball Launcher",
+        "title": "22-26 Ball Launcher",
         "order": 3
       },
       "components": [
@@ -3952,7 +4230,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -4938,6 +5216,68 @@
           "_anchor": "content5-3h"
         },
         {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
+            },
+            "P": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "msg-box4-3r"
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -4998,7 +5338,7 @@
             }
           },
           "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
           "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
@@ -5070,7 +5410,7 @@
             "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">2026 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Gender Free Project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Foul Drones</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\">22-26 Ball Launcher</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page6.html\">Green App</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">More +++&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -5247,8 +5587,8 @@
               "size": 250
             }
           },
-          "title": "Meet the Green App of Sportcasting",
-          "text": "<p>This is an App where fans enjoy the most talented commentators of the sports industry. The App crowdsourcing the job of a sportscaster by giving a chance to most talented voices who creatively provides the most advanced analytics in sports, using GIF(s)\nor even live-streaming.<br></p>",
+          "title": "Meet the Green App, the crowdsource sports announcers App",
+          "text": "<p>This is an App where fans enjoy the most talented commentators of the sports industry. The App crowdsourcing the job of a sports announcer by giving a chance to most talented voices who creatively provides the most advanced analytics in sports, using GIF(s)\nor even live-streaming.<br></p>",
           "_tags": [
             "Theme"
           ],
@@ -5258,7 +5598,7 @@
           "_styles": {
             "H3": {
               "color": "#28324e",
-              "font-size": "32px"
+              "font-size": "25px"
             },
             "P": {
               "color": "#28324e",
@@ -5511,6 +5851,68 @@
           "_anchor": "content5-24"
         },
         {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/map4-1400x769.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "We're open to any investment, partnership or any sponsoring opportunity.",
+          "text": "<p>If your entity based in <b>North America</b>, please contact Adam at <b>adam@beyondtheboxinc.com</b> or text <b>+ 1 (347) 383-4942</b></p><p>France or Morocco, contact Ghizlane at <b>ghizlane@beyondtheboxinc.com</b> or call <b>+ 33 (658) 540-965</b></p><p><b>For the rest of the world</b>, reach out to our marketing genius, Hedi at <b>hedi@beyondtheboxinc.com</b> or call <b>+ 216 (22) 397-234</b><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#28324e",
+              "font-size": "24px"
+            },
+            "P": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "msg-box4-3s"
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -5571,7 +5973,7 @@
             }
           },
           "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
-          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contactbeyondthebox@gmail.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
           "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
